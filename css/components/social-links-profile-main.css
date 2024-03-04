@@ -1,0 +1,74 @@
+/* 
+// *** *** *** Social Links Profile *** *** ***
+*/
+.social-links-profile {
+    width: min(87%, 383px);
+    padding: min(6.3%, 40px);
+    border-radius: 15px;
+    color: var(--color-white);
+    background-color: var(--color-dark-grey);
+}
+
+/* 
+// *** *** *** Header *** *** ***
+*/
+.social-links-profile-hdr { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem; 
+}
+
+.social-links-profile-picture {
+    width: 5.5rem;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 1.7rem;
+    border-radius: 50%;
+}
+
+.social-links-profile-name { 
+    margin-bottom: 0.4rem;
+    font-size: 1.48rem; 
+    font-weight: 600;
+}
+
+.social-links-profile-ubication {
+    margin-bottom: 1.3rem;
+    font-size: var(--f-size-txt);
+    font-weight: 700;
+    color: var(--color-green);
+}
+
+.social-links-profile-description {
+    font-size: var(--f-size-txt);
+    color: #d2d2d2;
+}
+
+/* 
+// *** *** *** Body *** *** ***
+*/
+.social-links-profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.social-links-profile-link {
+    display: inline-block;
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 10px;
+    text-align: center;
+    font-size: var(--f-size-txt);
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-grey);
+}
+
+.social-links-profile-link:hover {
+    color: var(--color-grey);
+    background-color: var(--color-green);
+}
